@@ -3,7 +3,8 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 function Footer(){
     return (
         <footer className="bg-navy-blue text-white">
-            <h1 className="flex justify-center text-heading py-3"><span className="font-bold">Event</span> <span className="text-primary font-bold"> Hive</span></h1>
+            <h1 className="flex justify-center text-heading py-3"><span className="font-bold">Event</span>
+            <span className="text-primary font-bold"> Hive</span></h1>
             <form className="flex justify-center gap-4">
                 <input className="bg-white rounded-md text-black px-4" type="email" placeholder="Enter your mail" name="email" />
                 <button className="bg-primary rounded-md py-2 px-4" type="submit">Subscribe</button>
